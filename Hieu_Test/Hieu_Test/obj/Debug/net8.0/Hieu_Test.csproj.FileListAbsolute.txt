@@ -1,0 +1,15 @@
+C:\Users\Hoang Hieu\source\repos\SEM2_T2308M_CSharp_Test\Hieu_Test\Hieu_Test\bin\Debug\net8.0\Hieu_Test.exe
+C:\Users\Hoang Hieu\source\repos\SEM2_T2308M_CSharp_Test\Hieu_Test\Hieu_Test\bin\Debug\net8.0\Hieu_Test.deps.json
+C:\Users\Hoang Hieu\source\repos\SEM2_T2308M_CSharp_Test\Hieu_Test\Hieu_Test\bin\Debug\net8.0\Hieu_Test.runtimeconfig.json
+C:\Users\Hoang Hieu\source\repos\SEM2_T2308M_CSharp_Test\Hieu_Test\Hieu_Test\bin\Debug\net8.0\Hieu_Test.dll
+C:\Users\Hoang Hieu\source\repos\SEM2_T2308M_CSharp_Test\Hieu_Test\Hieu_Test\bin\Debug\net8.0\Hieu_Test.pdb
+C:\Users\Hoang Hieu\source\repos\SEM2_T2308M_CSharp_Test\Hieu_Test\Hieu_Test\obj\Debug\net8.0\Hieu_Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hoang Hieu\source\repos\SEM2_T2308M_CSharp_Test\Hieu_Test\Hieu_Test\obj\Debug\net8.0\Hieu_Test.AssemblyInfoInputs.cache
+C:\Users\Hoang Hieu\source\repos\SEM2_T2308M_CSharp_Test\Hieu_Test\Hieu_Test\obj\Debug\net8.0\Hieu_Test.AssemblyInfo.cs
+C:\Users\Hoang Hieu\source\repos\SEM2_T2308M_CSharp_Test\Hieu_Test\Hieu_Test\obj\Debug\net8.0\Hieu_Test.csproj.CoreCompileInputs.cache
+C:\Users\Hoang Hieu\source\repos\SEM2_T2308M_CSharp_Test\Hieu_Test\Hieu_Test\obj\Debug\net8.0\Hieu_Test.sourcelink.json
+C:\Users\Hoang Hieu\source\repos\SEM2_T2308M_CSharp_Test\Hieu_Test\Hieu_Test\obj\Debug\net8.0\Hieu_Test.dll
+C:\Users\Hoang Hieu\source\repos\SEM2_T2308M_CSharp_Test\Hieu_Test\Hieu_Test\obj\Debug\net8.0\refint\Hieu_Test.dll
+C:\Users\Hoang Hieu\source\repos\SEM2_T2308M_CSharp_Test\Hieu_Test\Hieu_Test\obj\Debug\net8.0\Hieu_Test.pdb
+C:\Users\Hoang Hieu\source\repos\SEM2_T2308M_CSharp_Test\Hieu_Test\Hieu_Test\obj\Debug\net8.0\Hieu_Test.genruntimeconfig.cache
+C:\Users\Hoang Hieu\source\repos\SEM2_T2308M_CSharp_Test\Hieu_Test\Hieu_Test\obj\Debug\net8.0\ref\Hieu_Test.dll
