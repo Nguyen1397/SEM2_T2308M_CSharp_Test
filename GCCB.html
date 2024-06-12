@@ -1,0 +1,160 @@
+
+
+| Tiêu chí                      | C                          | PHP                          | Java                        | C#                          |
+|-------------------------------|----------------------------|------------------------------|-----------------------------|-----------------------------|
+| Phạm vi sử dụng           | Hệ thống, nhúng, phần mềm cơ bản | Web development, server-side scripting | Ứng dụng doanh nghiệp, Android, hệ thống lớn | Ứng dụng doanh nghiệp, Web, Windows, game |
+| Kiểu ngôn ngữ             | Procedural, structured     | Scripting, object-oriented   | Object-oriented             | Object-oriented, component-oriented |
+| Cơ bản về cú pháp         | Có hiệu quả, đơn giản      |Linh hoạt, kém nghiêm ngặt    | Nghiêm ngặt, verbose        | Tương tự Java, nhưng dễ đọc hơn |
+| Compiling vs Interpreting | Compiled                   | Interpreted                  | Compiled (to bytecode)      | Compiled (to MSIL)          |
+| Thư viện chuẩn            | Nhỏ, thấp                  | Rộng, nhiều framework        | Rộng, nhiều framework       | Rộng, .NET framework        |
+| Quản lý bộ nhớ            | Manual (malloc/free)       | Automatic (garbage collection) | Automatic (garbage collection) | Automatic (garbage collection) |
+| Hỗ trợ OOP                | Cơ bản, thông qua struct   | Tốt                          | Hoàn chỉnh                  | Hoàn chỉnh                  |
+| Gõ kiểu                   | Static                     | Dynamic                      | Static                      | Static                      |
+| Xử lý ngoại lệ            | Không hỗ trợ               | Hỗ trợ                       | Hỗ trợ                      | Hỗ trợ                      |
+| Môi trường phát triển     | GCC, Clang, Visual Studio  | PHPStorm, VS Code            | IntelliJ IDEA, Eclipse      | Visual Studio               |
+| Cộng đồng hỗ trợ          | Lớn                        | Lớn                          | Rất lớn                     | Lớn                         |
+| Phổ biến                  | Thấp so với các hiện đại   | Rất phổ biến                 | Rất phổ biến                | Đang phổ biến               |
+| Đa Nền tảng               | Có                         | Có                           | Có                          | Có                          |
+| Access Specifiers         | Không                      | Có (public, private)         | Có (public, private, protected) | Có (public, private, protected, internal) |
+
+### Giống nhau:
+- Cú pháp cơ bản: Tất cả dùng cú pháp tương tự, có dấu ngoặc nhọn {} để xác định khối lệnh, dấu chấm phẩy ; để kết thúc câu lệnh.
+- Hỗ trợ OOP: Java, C#, và PHP hỗ trợ OOP. C cũng có thể viết mã theo hướng đối tượng nhưng không natively hoàn toàn.
+- Đa nền tảng: Cả bốn ngôn ngữ đều có thể chạy trên nhiều nền tảng khác nhau với sự hỗ trợ của các công cụ và framework.
+
+### Khác nhau:
+- Compiling vs. Interpreting: C và Java cần biên dịch trước khi chạy, trong khi PHP là ngôn ngữ scripting và thường được chạy bởi trình thông dịch trực tiếp từ mã nguồn. C# được biên dịch thành MSIL và sau đó được thực thi bởi CLR.
+- Quản lý bộ nhớ: C yêu cầu quản lý bộ nhớ thủ công, trong khi PHP, Java và C# sử dụng garbage collection để quản lý bộ nhớ tự động.
+- Cộng đồng và thư viện: Java và C# có cộng đồng lớn và nhiều thư viện hỗ trợ cho các ứng dụng doanh nghiệp lớn, trong khi PHP rất mạnh trong lĩnh vực phát triển web.
+
+c:\Users\lequa\source\repos\Bai6.com\Circle .cs c:\Users\lequa\source\repos\Bai6.com\Program.cs c:\Users\lequa\source\repos\Bai6.com\Shape.cs c:\Users\lequa\source\repos\Bai6.com\Square.cs c:\Users\lequa\source\repos\Bai6.com\Triangle.cs
+
+
+using System;
+
+class HinhDang
+{
+    public virtual void Ve()
+    {
+        
+        Console.WriteLine("Vẽ hình dạng");
+    }
+}
+
+class HinhTron : HinhDang
+{
+    public override void Ve()
+    {
+        
+        Console.WriteLine("Vẽ hình tròn");
+    }
+}
+
+class HinhVuong : HinhDang
+{
+    public override void Ve()
+    {
+        
+        Console.WriteLine("Vẽ hình vuông");
+    }
+}
+
+class TamGiac : HinhDang
+{
+    public override void Ve()
+    {
+    
+        Console.WriteLine("Vẽ tam giác");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        HinhDang hinhTron = new HinhTron();
+        HinhDang hinhVuong = new HinhVuong();
+        HinhDang tamGiac = new TamGiac();
+
+        hinhTron.Ve(); 
+        hinhVuong.Ve();  
+        tamGiac.Ve();  
+    }
+}
+
+
+
+public class Bo : DongVat
+{
+    
+    public override void Noi()
+    {
+        Console.WriteLine("Bò Bò!");
+    }
+}
+
+
+public class Cho : DongVat
+{
+  
+    public override void Noi()
+    {
+        Console.WriteLine("Gâu Gâu!");
+    }
+}
+
+public abstract class DongVat
+{
+   
+    public abstract void Noi();
+}
+
+
+public class Meo : DongVat
+{
+    
+    public override void Noi()
+    {
+        Console.WriteLine("Meo Meo!");
+    }
+}
+
+
+static void Main(string[] args)
+{
+    List<DongVat> dongVats = new List<DongVat>
+    {
+        new Cho(),
+        new Meo(),
+        new Bo()
+    };
+
+    foreach (var dv in dongVats)
+    {
+        dv.Noi();
+    }
+}
+
+
+
+namespace ConsoleApp3
+
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            List<DongVat> dongVats = new List<DongVat>
+    {
+        new Cho(),
+        new Meo(),
+        new Bo()
+    };
+
+            foreach (var dv in dongVats)
+            {
+                dv.Noi();
+            }
+        }
+    }
+}
