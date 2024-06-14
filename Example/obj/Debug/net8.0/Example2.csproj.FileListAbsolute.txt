@@ -1,0 +1,14 @@
+C:\Users\admin\source\repos\FirstDemo\Example\bin\Debug\net8.0\Example2.exe
+C:\Users\admin\source\repos\FirstDemo\Example\bin\Debug\net8.0\Example2.deps.json
+C:\Users\admin\source\repos\FirstDemo\Example\bin\Debug\net8.0\Example2.runtimeconfig.json
+C:\Users\admin\source\repos\FirstDemo\Example\bin\Debug\net8.0\Example2.dll
+C:\Users\admin\source\repos\FirstDemo\Example\bin\Debug\net8.0\Example2.pdb
+C:\Users\admin\source\repos\FirstDemo\Example\obj\Debug\net8.0\Example2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\FirstDemo\Example\obj\Debug\net8.0\Example2.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\FirstDemo\Example\obj\Debug\net8.0\Example2.AssemblyInfo.cs
+C:\Users\admin\source\repos\FirstDemo\Example\obj\Debug\net8.0\Example2.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\FirstDemo\Example\obj\Debug\net8.0\Example2.dll
+C:\Users\admin\source\repos\FirstDemo\Example\obj\Debug\net8.0\refint\Example2.dll
+C:\Users\admin\source\repos\FirstDemo\Example\obj\Debug\net8.0\Example2.pdb
+C:\Users\admin\source\repos\FirstDemo\Example\obj\Debug\net8.0\Example2.genruntimeconfig.cache
+C:\Users\admin\source\repos\FirstDemo\Example\obj\Debug\net8.0\ref\Example2.dll
